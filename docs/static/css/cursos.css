@@ -1,0 +1,103 @@
+/*CSS DEL LAYOUT*/
+
+.container.container-full-width.p-4{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+body {
+    background-image: url("../img/codigoPro.jpg"); /* Ruta relativa desde la carpeta CSS */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 1000px;
+}
+
+footer{
+    background-color:rgba(47, 47, 47);
+    margin: 0 !important;
+}
+
+.inferiorFoot{
+    display: flex;
+    justify-content: space-around;
+}
+
+.iconosRedes{
+    display: flex;
+    justify-content: center;
+}
+
+.detallesFoot{
+    color: rgb(255, 255, 255);
+}
+
+.line{
+    border-top: 2px solid rgb(255, 255, 255);
+    width: 97%;
+}
+
+.seguir{
+    margin: 0px 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.flechita{
+    margin: 0px 10px;
+}
+
+.regis{
+    text-decoration: none; 
+    color:seagreen;
+}
+
+.regis:hover{
+    color: white;
+}
+/*FIN CSS LAYOUT*/
+
+
+.card-deck {
+    margin-top: 20px;
+}
+.card {
+    background-color: #fff;
+    color: #000;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #000;
+    transition: all 0.3s ease-in-out;
+}
+  
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px #000;
+}
+
+.card-title {
+    font-size: 13px;
+    font-weight: bold;
+}
+.card-text {
+    font-size: 13px;
+}
+
+.container{
+    background-color:rgb(117, 169, 241, 0.3);
+}
+
+.dis{
+    display: flex;
+    justify-content: center;
+}
+
+.curs{
+    font-size: 90px;
+    background-color:rgb(213, 227, 247, 0.8);
+    margin-top: 10px;
+}

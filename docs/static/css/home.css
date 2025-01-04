@@ -1,0 +1,337 @@
+/*CSS DEL LAYOUT ORIGINAL*/
+
+.container.container-full-width.p-4{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+body {
+    background-image: url("../img/codigoPro.jpg"); /* Ruta relativa desde la carpeta CSS */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 2000px;
+}
+
+footer{
+    background-color:rgba(47, 47, 47);
+}
+
+.inferiorFoot{
+    display: flex;
+    justify-content: space-around;
+}
+
+.iconosRedes{
+    display: flex;
+    justify-content: center;
+}
+
+.detallesFoot{
+    color: rgb(255, 255, 255);
+}
+
+.line{
+    border-top: 2px solid rgb(255, 255, 255);
+    width: 97%;
+}
+
+.seguir{
+    margin: 0px 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.flechita{
+    margin: 0px 10px;
+}
+
+.regis{
+    text-decoration: none; 
+    color:seagreen;
+}
+
+.regis:hover{
+    color: white;
+}
+/*FIN CSS LAYOUT*/
+
+.container-full-width {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+.secciones{
+    display: flex;
+    margin: 2px 1px 0px 1px;
+}
+
+.seccion1, .seccion2 {
+    flex: 1;
+    height: 100vh;
+}
+
+.principal{
+    background-color:rgba(212, 219, 228, 0.9);
+    text-align: center; 
+}
+
+.seccion1{
+    background-color:rgba(212, 219, 228, 0.9);
+    /*border: 2px solid black;*/
+    width: 100%;
+    min-height: 600px;
+}
+
+.seccion2{
+    background-color:rgba(47, 47, 47, 0.9);
+    /*border: 2px solid black;*/
+    width: 100%;
+    min-height: 600px;
+    color: white;
+}
+
+.seccion3{
+    background-color:rgba(212, 219, 228, 0.9);
+    min-height: 900px;
+
+
+}
+
+.sec4y5{
+    background-color: rgba(47, 47, 47, 0.9);
+}
+
+.seccionV4y5{
+    display: flex;
+    flex:1;
+}
+
+.sec4{
+    width: 50%;
+}
+
+.sec5{
+    width: 50%;
+}
+
+.tit{ 
+    text-decoration: underline;
+    box-shadow: 10px 0px 20px black,-10px 0px 20px black;
+    /*text-shadow: 10px 10px 10px black;*/
+    /*display: inline-block;*/
+    font-size: 40px;
+    color: white;
+    background-color: black;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.fut{
+    font-size: 30px;
+}
+
+.asidee{
+    text-align:  justify;
+}
+
+.pParaAumentar{
+    font-size: 19px;
+    text-align: justify;
+}
+
+.test{
+    margin-top: 90px;
+}
+
+.subTítulos{
+    /*border: 1px solid black;*/
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+    background-color: rgb(231, 231, 231);
+    box-shadow: 0px 0px 20px rgb(231, 231, 231),0px 0px 20px rgb(231, 231, 231);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.subTítulosN{
+    /*border: 1px solid black;*/
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0px 0px 20px rgb(0, 0, 0),0px 0px 20px rgb(0, 0, 0);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.cursosEleg{
+    text-decoration: none;
+    color: white;
+}
+
+.carousel-item{
+    padding-left: 90px;
+}
+
+.card-body{
+    background-color: rgb(17, 17, 17, 0.9);
+    color: white;
+}
+
+.card-text{
+    color: white;
+}
+
+.card-title{
+    color: white !important;
+}
+
+.carousel-control-next, .carousel-control-prev{
+    width: auto !important;
+    padding: 10px !important;
+    color: black;
+}
+
+.carousel-control-prev{
+    padding-left: 500px;
+}
+
+.carousel-control-next-icon{
+    background-color: black;
+    border-radius: 45%;
+}
+
+.carousel-control-prev-icon{
+    background-color: black;
+    border-radius: 45%;
+}
+
+.fotoGOD{
+    display: flex;
+    width:48%;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    opacity: none !important;
+    background-color:rgb(213, 227, 247, 0.9);
+    max-width: 50%;
+    height: auto;
+}
+
+.dentroPrin{
+    display: flex;
+}
+
+aside{
+    max-width: 45%; 
+    width: 45%;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.decCliente{
+    border: 2px solid black;
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    text-align: justify;
+    color: black;
+    font-size: 18px;
+}
+
+.nuestroC{
+    text-align: justify;
+    padding-left: 10px;
+}
+
+/*.empleFoto{
+    border-radius: 40%;
+    width: 40%;
+    background-color: chartreuse;
+}*/
+
+.empleFoto {
+    border-radius: 50%; 
+    width: 30%; 
+    height: auto; 
+    margin-bottom: 10px; 
+}
+
+.parrafo{
+    display: flex;
+    justify-content: center;
+}
+
+.estrellas{
+    display: flex;
+    justify-content: center;
+}
+
+.caraYNombre{
+    display: flex;
+    justify-content: center;
+}
+
+.fotitoCliente{
+    width: 10%;
+}
+
+.vocaNom{
+    padding-left: 10px;
+}
+
+.primeraFila{
+    display: flex;
+    justify-content: center;
+}
+
+.segundaFila{
+    display: flex;
+    justify-content: center;
+}
+
+.botonFinal {
+    border-radius: 10%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px 20px;
+    border: none; 
+    cursor: pointer; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /*Sombra*/
+    transition: background-color 0.3s, transform 0.3s; /*Transición*/
+}
+
+.botonFinal:hover {
+    background-color: rgb(85, 139, 211);
+    transform: translateY(-2px);
+}
+
+.botonFinal:active {
+    transform: translateY(0);
+}
+
+.bF{
+    justify-items: center;
+    text-align: center;
+}
+
+.iconosEmpleados {
+    display: flex;
+    justify-content: center;
+    gap: 10px; 
+}
+
+.unPersonaje {
+    width: 20%;
+    text-align: center; 
+    padding: 20px; 
+    border-radius: 10px; 
+    margin: 10px auto; 
+}

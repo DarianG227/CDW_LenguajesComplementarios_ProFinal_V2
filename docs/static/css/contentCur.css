@@ -1,0 +1,261 @@
+/*CSS DEL LAYOUT*/
+
+.container.container-full-width.p-4{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+body {
+    background-image: url("../img/codigoPro.jpg"); /* Ruta relativa desde la carpeta CSS */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 500px;
+}
+
+footer{
+    background-color:rgba(47, 47, 47);
+    margin: 0 !important;
+}
+
+.inferiorFoot{
+    display: flex;
+    justify-content: space-around;
+}
+
+.iconosRedes{
+    display: flex;
+    justify-content: center;
+}
+
+.detallesFoot{
+    color: rgb(255, 255, 255);
+}
+
+.line{
+    border-top: 2px solid rgb(255, 255, 255);
+    width: 97%;
+}
+
+.seguir{
+    margin: 0px 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.flechita{
+    margin: 0px 10px;
+}
+
+.regis{
+    text-decoration: none; 
+    color:seagreen;
+}
+
+.regis:hover{
+    color: white;
+}
+/*FIN CSS LAYOUT*/
+
+
+.container{
+    background-color:rgb(213, 227, 247, 0.8);
+    border: 1px solid black;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0),0px 0px 5px rgb(0, 0, 0);
+    display: flex;
+    flex:1;
+    flex-direction: row;
+    height: auto;
+    width: 100%;
+    /*margin: 0 !important;*/
+    padding: 0 !important;
+}
+
+.container.container-full-width.p-4{
+    display: block !important;
+}
+
+.dosArriba{
+    display: flex;
+    margin-top: 10px;
+    flex: 1;
+}
+
+.dosAbajo{
+    display: flex;
+    margin-top: 10px;
+    flex: 1;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+.botonF{
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+
+.detallesCurso{
+    display: flex;
+    margin-left: 60px;
+}
+
+.info{
+    border: 1px solid black;
+    background-color:rgb(213, 227, 247, 0.8);
+    box-shadow: 0px 0px 5px rgb(0, 0, 0),0px 0px 5px rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.actual{
+    background-color: rgb(235, 203, 203);
+    text-decoration: none;
+    color: black;
+}
+
+.parteIzq, .parteDer {
+    flex: 1; /* Permite que ocupen el mismo espacio */
+    padding: 0 !important; /* Elimina relleno adicional */
+    margin: 0 !important; /* Elimina márgenes */
+    height: 100%; /* Ajusta al contenedor padre */
+}
+
+
+.parteIzq{
+    width: 100%;
+    border: 1px solid black;
+    border-bottom: none;
+}
+
+.parteDer{
+    width: 100%;
+    border: 1px solid black;
+    border-bottom: none;
+}
+
+li{
+    text-align: justify;
+}
+
+p{
+    font-size: 15px;
+    text-align: justify;
+}
+
+.sec2{
+    padding-right: 40px;
+}
+
+.detallesPrimer{
+    padding-left: 20px;
+    margin-right: 70px;
+}
+
+.detallesTercer{
+    padding-left: 20px;
+    margin-right: 30px;
+}
+
+.detallesSegundo{
+    margin: 10px;
+    padding: 0;
+} 
+
+.detallesCuarto{
+    margin-right: 15px;
+}
+
+.primerCont-izquierdo, .tercerCont-izquierdo, .segundoCont-izquierdo, .cuartoCont-izquierdo{
+    border: 1px solid black;
+}
+
+.primerCont-izquierdo, .tercerCont-izquierdo{
+    margin-left: 25px;
+    margin-right: 20px;
+}
+
+.segundoCont-izquierdo{
+    margin-right: 10px;
+    padding-right: 20px !important;
+    margin-left: 10px;
+} 
+
+
+.cuartoCont-izquierdo{
+    margin-left: 35px;
+}
+
+/*DERECHA*/
+.primerCont-derecho, .tercerCont-derecho, .segundoCont-derecho, .cuartoCont-derecho{
+    border: 1px solid black;
+}
+
+
+.primerCont-derecho, .tercerCont-derecho{
+    margin-left: 25px;
+    margin-right: 10px;
+}
+
+.segundoCont-derecho{
+    margin-right: 10px;
+    padding-right: 0px !important;
+    margin-left: 10px;
+} 
+
+.cuartoCont-derecho{
+    padding-left: 30px;
+    margin-right: 10px;
+
+}
+
+.detallesPrimerDerecha{
+    padding-left: 20px;
+    margin-right: 40px;
+}
+
+.detallesSegundoDerecha{
+    margin-right: 0px;
+    padding: 0;
+}
+
+.detallesTercerDerecha{
+    padding-left: 20px;
+    margin-right: 20px;
+}
+
+.detallesCuartoDerecha{
+    margin-right: 10px;
+    padding-left: 45px;
+}
+
+.unTramo{
+    font-size: 20px;
+    text-decoration: underline;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.otroTramo{
+    font-size: 20px;
+    text-decoration: underline;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.posibles{
+    text-decoration: none;
+    color: black;
+}
+
+

@@ -1,0 +1,142 @@
+/*CSS DEL LAYOUT*/
+
+.container.container-full-width.p-4{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+body {
+    background-image: url("../img/codigoPro.jpg"); /* Ruta relativa desde la carpeta CSS */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 500px;
+}
+
+footer{
+    background-color:rgba(47, 47, 47);
+    margin: 0 !important;
+}
+
+.inferiorFoot{
+    display: flex;
+    justify-content: space-around;
+}
+
+.iconosRedes{
+    display: flex;
+    justify-content: center;
+}
+
+.detallesFoot{
+    color: rgb(255, 255, 255);
+}
+
+.line{
+    border-top: 2px solid rgb(255, 255, 255);
+    width: 97%;
+}
+
+.seguir{
+    margin: 0px 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.flechita{
+    margin: 0px 10px;
+}
+
+.regis{
+    text-decoration: none; 
+    color:seagreen;
+}
+
+.regis:hover{
+    color: white;
+}
+/*FIN CSS LAYOUT*/
+
+
+.container{
+    background-color:rgb(213, 227, 247, 0.8);
+    border: 1px solid black;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0),0px 0px 5px rgb(0, 0, 0);
+}
+
+.division{
+    display: flex;
+    justify-content: space-around;
+}
+
+.sSec1, .sSec2, .sSec3{
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.tit{
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin: 20px;
+}
+
+
+
+h1{
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+.botonF{
+    margin-top: 20px;
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+
+.detallesCurso{
+    display: flex;
+    margin-left: 60px;
+}
+
+.info{
+    border: 1px solid black;
+    background-color:rgb(213, 227, 247, 0.8);
+    box-shadow: 0px 0px 5px rgb(0, 0, 0),0px 0px 5px rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.actual{
+    background-color: rgb(235, 203, 203);
+    text-decoration: none;
+    color: black;
+}
+
+.posibles{
+    text-decoration: none;
+    color: black;
+}
+
+.nombresPart{
+    font-size: 18px;
+}
+
+.nombres{
+    font-size: 19px;
+}
+
+.lis{
+    font-size: 20px;
+}

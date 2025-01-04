@@ -1,0 +1,118 @@
+/*CSS DEL LAYOUT*/
+
+.container.container-full-width.p-4{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+body {
+    background-image: url("../img/codigoPro.jpg"); /* Ruta relativa desde la carpeta CSS */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 500px;
+}
+
+footer{
+    background-color:rgba(47, 47, 47);
+    margin: 0 !important;
+}
+
+.inferiorFoot{
+    display: flex;
+    justify-content: space-around;
+}
+
+.iconosRedes{
+    display: flex;
+    justify-content: center;
+}
+
+.detallesFoot{
+    color: rgb(255, 255, 255);
+}
+
+.line{
+    border-top: 2px solid rgb(255, 255, 255);
+    width: 97%;
+}
+
+.seguir{
+    margin: 0px 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.flechita{
+    margin: 0px 10px;
+}
+
+.regis{
+    text-decoration: none; 
+    color:seagreen;
+}
+
+.regis:hover{
+    color: white;
+}
+/*FIN CSS LAYOUT*/
+
+
+.curs {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    background-color:rgba(212, 219, 228, 0.9);
+    font-size: 50px;
+}
+
+.dis{
+    display: flex;
+    justify-content: center;
+}
+
+.formu {
+    background-color: #f9f9f9;
+    max-width: 600px;
+    margin: auto;
+}
+
+.input-custom {
+    border: none;
+    border-bottom: 2px solid #ccc;
+    border-radius: 0;
+    background-color: transparent;
+    box-shadow: none;
+    transition: border-color 0.3s;
+}
+
+.input-custom:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.form-check-input {
+    margin-top: 5px;
+    accent-color: #007bff;
+}
+
