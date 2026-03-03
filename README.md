@@ -1,4 +1,4 @@
-# Plataforma de Cursos - 2025
+# JADETech - Plataforma de Cursos - 2024
 
 ## Descripción
 
@@ -78,7 +78,7 @@ A continuación, se presentan algunas capturas de pantalla del proyecto:
 ## Enlace al proyecto
 
 Puedes visitar la versión en vivo del proyecto en el siguiente enlace:  
-https://dariang227.github.io/CDW_LenguajesComplementarios_ProFinal_V2/
+https://dariang227.github.io/jadetech-cursos/
 
 ## Notas adicionales
 
